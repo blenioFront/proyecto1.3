@@ -308,3 +308,15 @@ a:hover{
     margin-left: 18px;
     font-size: 30px;
 }
+
+.construccion{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    font-size: 50px;
+    width: 100vw;
+    height: 100vh;
+
+}
