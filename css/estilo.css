@@ -1,0 +1,175 @@
+*{
+
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.boxInicial{
+
+    height: 70vh;
+    width: 100%;
+    background-image: url(../imagenes/fondo.png);
+    background-size: cover;
+}
+
+
+.navegacion{
+
+    height: 10vh;
+}
+
+.navegacion-ul{
+
+    list-style-type: none;
+    
+}
+
+.navegacion-ul-li:hover{
+
+    color:#EC7063;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+#portada{
+
+    height: 60vh;
+
+}
+
+.portadaImagen{
+
+    height: 120px;
+    width: 120px;
+    border-radius: 50px;
+
+}
+
+
+#SobreMi{
+
+    height: 30vh;
+    background-color: #EC7063;
+    margin: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.proyectoTitulo{
+    padding-top: 8%;
+    color:#EC7063;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.proyectoSubtitulo{
+
+    color:#9b9b9b;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 8px;
+
+
+}
+
+#contacto{
+
+    background-color: #455a64;
+    text-align: center;
+    margin-top: 8%;
+
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+
+
+
+.contactoTitulo{
+    
+    color:#EC7063;  
+    margin-bottom: 0px;   
+    
+}
+.contactoSubtitulo{
+
+    margin-top: 8px;
+
+}
+
+.contactoFila1{
+
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+}
+
+
+
+.contactoFila1 > input,
+.contactoFila2{
+
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px #37474f;
+    padding: 2px 4px 2px 6px;
+    font-size: 18px;
+
+}
+
+.contactoFila1 > input:focus,
+.contactoFila2:focus{
+
+    outline: none;
+    border-bottom: solid 2px #EC7063;
+
+}
+
+.contactoFila1 > input::placeholder,
+.contactoFila2::placeholder{
+
+    color: white;
+
+}
+
+.contactoBoton{
+    border:none;
+    margin-top: 3%;
+    width: 216px;
+    height: 51px;
+    background-color:#EC7063;  
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.footer{
+    padding: 5% 0% 5% 0%;
+    background-color: #37474f;
+    text-align: center;
+
+}
+
+.footerSubtitulo{
+    font-weight: 400;    
+}
+
+.footerIconos{
+
+    margin-top: 24px;
+
+}
+
+.footer-Icon{
+
+    margin-left: 18px;
+    font-size: 30px;
+}

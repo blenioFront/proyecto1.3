@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Mi portafolio web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"></script>
+
+    <!-- las tres líneas siguientes son un arreglo para obtener elementos semánticos de HTML5 que funcionan en versiones de Internet Explorer antiguas-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    
+
+    
+      
+
+    <section class="boxInicial">
+      <nav class='navegacion'>
+        <ul class="navegacion-ul">
+          <li class="navegacion-li"><a href="#SobreMi">Sobre mi</a></li>
+          <li class="navegacion-li"><a href="#proyectos">Proyectos</a></li>          
+          <li class="navegacion-li"><a href="#contacto">Contacto</a></li>
+        </ul>
+
+        
+      </nav>
+    
+      <article id="portada">
+        
+        <img class="portadaImagen" src="./imagenes/avatar.png" alt="mi imagen" width="250px" height="150px">
+        <h3>John Snow</h3>
+        <span>Desarrollador Full Stack</span>
+        
+
+        
+    </article>
+  </section>
+    
+      
+      
+        <article id="SobreMi">
+            <h2>Sobre mi</h2>
+            <p>>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quaerat in molestias autem quis earum itaque similique non iure, nesciunt praesentium dignissimos aperiam eos? Optio dolore placeat praesentium veritatis pariatur?</p>
+
+            
+        </article>
+      
+        <article id="proyectos">
+            <div class="proyectosTitulo">
+              <h2 class="proyectoTitulo">Proyectos</h2>
+              <h3 class="proyectoSubtitulo">Ultimos trabajos</h3>
+            </div>
+          
+            
+
+            <div class="proyectoImagenes">
+                <img src="./imagenes/proyecto1.jpg" alt="proyecto1">
+                <img src="./imagenes/proyecto2.png" alt="proyecto2">
+                <img src="./imagenes/proyecto3.png" alt="proyecto3">
+            
+            </div>  
+
+            
+        </article>
+
+        <article id="contacto">
+          <div class="contactoTitulos">
+            <h2 class="contactoTitulo">CONTACTO</h2>
+            <h3 class="contactoSubtitulo">ESCRIBIME, TRABAJEMOS JUNTOS</h3>
+          </div>
+            <form action="" method="post">
+              <div class="contactoFila1">
+                
+                <input type="text" name="nombre" placeholder="Nombre">
+                
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="asunto" placeholder="Asunto">
+              </div>
+              <div>
+                <textarea name="mensaje" id="" cols="30" rows="1" placeholder="Mensaje" class="contactoFila2"></textarea><br/>
+                <button type="submit" class="contactoBoton">Enviar</button>
+              </div>
+            </form>
+
+            
+        </article>
+      
+      
+
+    
+
+    <!-- Y aquí está el pie de página principal que utilizaremos en todas las páginas de nuestro sitio web -->
+
+    <footer class="footer">
+      <div class="footerTitulos">
+        <h2>John Snow</h2>
+        <h3 class="footerSubtitulo">Desarrollador Full Stack</h3>
+      </div>
+      <div class="footerIconos">
+        <a href="#">
+         <i class="fab fa-facebook footer-Icon"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-github footer-Icon"></i>
+        </a>  
+        
+      </div>
+      
+    </footer>
+
+  </body>
+</html>
